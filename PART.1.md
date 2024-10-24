@@ -1,4 +1,4 @@
-## 사칙연산
+## 사칙연산(10869)
 ```python
 a,b = map(int, input().split())
 print(a+b, a-b, a*b, a//b, a%b, sep='\n')
