@@ -2,11 +2,10 @@
 
 - 생성 <br/>
 
-터미널(Ctrl+Shift+`)에서 아래 명령어 입력
+터미널에서 아래 명령어 입력
 
 ```
-$ cd
-$ python -m venv <name>
+python -m venv <name>
 ```
 
 - 활성화/비활성화
