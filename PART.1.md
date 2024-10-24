@@ -2,7 +2,14 @@
 
 ```python
 a, b = map(int, input().split())
+```
 
+```python
+문자열.split()  #띄어쓰기를 기준으로 문자열 나누기 
+문자열.split('구분자')  #구분자를 기준으로 문자열 나누기
+```
+
+```python
 map(function, iter)  #map()은 여러 개의 데이터를 동시에 처리 
 map(function, iter1, iter2)  #함수에 필요한 입력값이 두 개인 경우
 ```
