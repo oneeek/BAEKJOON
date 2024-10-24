@@ -1,7 +1,7 @@
 ### 가상환경
 
-```python
 #생성
+```
 $ cd
 $ python -m venv <name>
 
