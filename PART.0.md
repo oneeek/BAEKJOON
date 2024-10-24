@@ -1,6 +1,7 @@
-## 가상환경
+## VSCode 가상환경
 
 - 생성
+`Ctrl + Shift + `` 터미널에서 아래 명령어 입력
 ```
 $ cd
 $ python -m venv <name>
