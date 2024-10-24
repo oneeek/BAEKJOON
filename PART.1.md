@@ -1,6 +1,6 @@
 ## 사칙연산(10869)
-정답
 ```python
+#제출코드
 a,b = map(int, input().split())
 print(a+b, a-b, a*b, a//b, a%b, sep='\n')
 ```
