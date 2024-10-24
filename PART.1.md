@@ -10,11 +10,9 @@ a, b = map(int, input().split())
 ```
 
 ```python
-map(function, iter)  #map()은 여러 개의 데이터를 동시에 처리 
+map(function, iter)  #iter(데이터 집합)에 function(함수) 적용을 동시에 처리 
 map(function, iter1, iter2)  #함수에 필요한 입력값이 두 개인 경우
 ```
-***function*** : 각 요소에 적용할 함수, ***iter*** : 함수를 적용할 데이터 집합 <br/>
-
 - 반복문 대신 한줄의 코드로 여러 개의 리스트 동시 처리 가능 ▶ 가독성 증가
 - 내부적으로 C로 구현되어 있어 Python 반복문보다 빠르게 처리 가능
 - 지연평가 방식 ▶ 불필요한 연산을 최소화하여 성능 향상
