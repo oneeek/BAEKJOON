@@ -1,6 +1,6 @@
 ## 사칙연산(10869)
 
--  [] 제출코드
+-  [x] 제출코드
 ```python
 a,b = map(int, input().split())
 print(a+b, a-b, a*b, a//b, a%b, sep='\n')
