@@ -4,9 +4,10 @@ a,b = map(int, input().split())
 print(a+b, a-b, a*b, a//b, a%b, sep='\n')
 ```
 
+### 📝
 ```python
-> 문자열.split()  #띄어쓰기를 기준으로 문자열 나누기 
-> 문자열.split('구분자')  #구분자를 기준으로 문자열 나누기
+문자열.split()  #띄어쓰기를 기준으로 문자열 나누기 
+문자열.split('구분자')  #구분자를 기준으로 문자열 나누기
 ```
 
 ```python
