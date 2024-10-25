@@ -30,8 +30,15 @@ target = range(1,5)
 print(list(map(lambda x : x**2, target)))  #결과: [1, 4, 9, 16]
 ```
 
-
-
+-  [x] **+TEST**
+```python
+target = range(1,500000)
+list(map(lambda x : x**2, target))  #결과: 
+```
+```python
+target = range(1,500000)
+list(map(lambda x : x**2, target))  #결과: 
+```
 
 
 ##
