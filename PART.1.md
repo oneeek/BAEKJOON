@@ -24,7 +24,8 @@ map(function, iterable1, iterable2)  #function의 입력값이 두 개인 경우
 > iterator는 값을 차례대로 꺼낼 수 있는 객체로, 데이터를 미리 만들어두지 않고 필요한 시점이 되었을 때 데이터를 생성
 > 필요할 때만 값을 계산하여 불필요한 계산 방지
 
-> **+lambda 표현식** <br/>
+
+-  [x] **+lambda 표현식**
 ```python
 target = range(1,5)
 print(list(map(lambda x : x**2, target)))  #결과: [1, 4, 9, 16]
