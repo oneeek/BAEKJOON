@@ -32,12 +32,11 @@ print(list(map(lambda x : x**2, target)))  #결과: [1, 4, 9, 16]
 
 -  [x] **TEST**
 ```python
-target = range(1,500000)
-list(map(lambda x : x**2, target))  #결과: 
+target = range(1,50000000)
+list(map(lambda x : x**2, target))  #결과: 3.7s
 ```
+
 ```python
-target = range(1,500000)
-list(map(lambda x : x**2, target))  #결과: 
 ```
 
 
