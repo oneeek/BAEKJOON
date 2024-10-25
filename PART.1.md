@@ -20,7 +20,6 @@ map(function, iter1, iter2)  #function의 입력값이 두 개인 경우
 - 내부적으로 C로 구현되어 있어 Python 반복문보다 빠르게 처리 가능
 - 지연평가(lazy evaluation) 방식 ▶ 효율적인 메모리 사용과 성능 최적
 
--  [X] 
 > **지연평가(lazy evaluation)**
 > iterator는 값을 차례대로 꺼낼 수 있는 객체로, 데이터를 미리 만들어두지 않고 필요한 시점이 되었을 때 데이터를 생성
 > 필요할 때만 값을 계산하여 불필요한 계산 방지
