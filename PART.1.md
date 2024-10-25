@@ -26,17 +26,23 @@ map(function, iterable1, iterable2)  #function의 입력값이 두 개인 경우
 
 -  [x] **+ lambda 표현식**
 ```python
-target = range(1,5)
-print(list(map(lambda x : x**2, target)))  #결과: [1, 4, 9, 16]
+iter = range(1,5)
+print(list(map(lambda x : x**2, iter)))  #결과: [1, 4, 9, 16]
 ```
 
 -  [x] **TEST**
 ```python
-target = range(1,50000000)
-list(map(lambda x : x**2, target))  #결과: 3.7s
+iter = range(1,50000000)
+result = list(map(lambda x : x**2, iter))
 ```
 
 ```python
+def square(x):
+    return x**2
+
+result = []
+for i in range(1,50000000):
+    result.append(square(i))
 ```
 
 
