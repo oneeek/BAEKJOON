@@ -33,7 +33,8 @@ print(list(map(lambda x : x**2, iter)))  #결과: [1, 4, 9, 16]
 -  [x] **TEST**
 ```python
 iter = range(1,50000000)
-result = list(map(lambda x : x**2, iter))  #time: 812ms
+result = list(map(lambda x : x**2, iter))
+#time: 
 ```
 
 ```python
@@ -42,7 +43,8 @@ def square(x):
 
 result = []
 for i in range(1,50000000):
-    result.append(square(i))  #time: 1609ms
+    result.append(square(i))
+#time: 
 ```
 
 
