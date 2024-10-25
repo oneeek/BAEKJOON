@@ -13,7 +13,7 @@ print(a+b, a-b, a*b, a//b, a%b, sep='\n')
 ```
 
 ```python
-map(function, iterable)  #iterable(반복가능객체)에 function(함수)을 동시에 처리
+map(function, iterable)  #iterable(반복가능객체)에 function(함수)을 수행
 map(function, iterable1, iterable2)  #function의 입력값이 두 개인 경우
 ```
 - 반복문 대신 한줄의 코드로 처리 가능 ▶ 가독성 증가
