@@ -50,7 +50,32 @@ for i in range(1,50000000):
 
 ## 곱셈(2588)
 
--  [x] 제출코드
+-  [ ] 제출코드
+```python
+a = int(input())
+b = input()
+
+for i in range(len(b), 0, -1) :
+    print(a*int(b[i-1]))
+print(a*int(b))
+```
+
+
+## 윤년(2753)
+
+-  [ ] 제출코드
+```python
+year = input()
+if ((year%4 == 0)and(year%100 != 0)) or (year%400 == 0):
+    print('1')
+else:
+    print('0')
+```
+
+
+## X보다 작은 수(10871)
+
+-  [ ] 제출코드
 ```python
 
 ```
