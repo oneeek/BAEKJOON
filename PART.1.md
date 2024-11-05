@@ -108,7 +108,7 @@ for i in range(N):
 
 ## 평균은 넘겠지(4344)
 
--  [x] 제출코드
+-  [ ] 제출코드 *런타임 에러
 ```python
 N = int(input())
 
