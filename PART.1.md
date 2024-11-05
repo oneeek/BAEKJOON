@@ -88,9 +88,9 @@ for i in range(N):
 ```python
 import numpy as np
 
-_, a = map(int, input().split())
-b = np.array(list(map(int, input().split())))
-print(str(b[b < a])[2:-1])
+_, X = map(int, input().split())
+A = np.array(list(map(int, input().split())))
+print(str(A[A < X])[2:-1])
 ```
 
 
