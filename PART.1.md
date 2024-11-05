@@ -30,7 +30,7 @@ iter = range(1,5)
 print(list(map(lambda x : x**2, iter)))  #결과: [1, 4, 9, 16]
 ```
 
--  [x] **TEST**
+-  [ ] **TEST**
 ```python
 iter = range(1,50000000)
 result = list(map(lambda x : x**2, iter))
