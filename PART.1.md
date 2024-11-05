@@ -98,7 +98,19 @@ print(str(A[A < X])[2:-1])
 
 -  [ ] 제출코드
 ```python
+N = int(input())
 
+for i in range(N):
+    a = input()
+    score = 0
+    result = 0
+    for j in a:
+        if j == 'O':
+            score += 1
+        else:
+            score = 0
+        result += score
+    print(result)
 ```
 
 
