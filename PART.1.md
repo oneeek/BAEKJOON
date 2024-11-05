@@ -118,6 +118,7 @@ for i in range(N):
     cnt = 0
     for i in num[1:]:
         if i > avg:
-            cnt += 1   
-    print(round((cnt/num[0])*100, 3), end='%')
+            cnt += 1
+    result = (cnt / n) * 100
+    print('%.3f' %result + '%')
 ```
