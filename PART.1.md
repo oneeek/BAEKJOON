@@ -118,5 +118,14 @@ for i in range(N):
 
 -  [ ] 제출코드
 ```python
+N = int(input())
 
+for i in range(N):
+    num = list(map(int, input().split()))
+    avg = sum(num[1:])/num[0]
+    cnt = 0
+    for i in num[1:]:
+        if i > avg:
+            cnt += 1   
+    print(round((cnt/num[0])*100, 3), end='%')
 ```
