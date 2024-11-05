@@ -77,5 +77,9 @@ else:
 
 -  [ ] 제출코드
 ```python
+import numpy as np
 
+_, a = map(int, input().split())
+b = np.array(list(map(int, input().split())))
+print(str(b[b < a])[2:-1])
 ```
