@@ -50,7 +50,7 @@ for i in range(1,50000000):
 
 ## 곱셈(2588)
 
--  [ ] 제출코드
+-  [x] 제출코드
 ```python
 a = int(input())
 b = input()
@@ -63,7 +63,7 @@ print(a*int(b))
 
 ## 윤년(2753)
 
--  [ ] 제출코드
+-  [ ] 제출코드 *런타임 에러
 ```python
 year = input()
 if ((year%4 == 0)and(year%100 != 0)) or (year%400 == 0):
@@ -75,7 +75,7 @@ else:
 
 ## X보다 작은 수(10871)
 
--  [ ] 제출코드
+-  [x] 제출코드
 ```python
 N, X = map(int, input().split())
 A = list(map(int, input().split()))
@@ -85,18 +85,10 @@ for i in range(N):
         print(A[i],end=" ") 
 ```
 
-```python
-import numpy as np
-
-_, X = map(int, input().split())
-A = np.array(list(map(int, input().split())))
-print(str(A[A < X])[2:-1])
-```
-
 
 ## OX퀴즈(8958)
 
--  [ ] 제출코드
+-  [x] 제출코드
 ```python
 N = int(input())
 
@@ -116,7 +108,7 @@ for i in range(N):
 
 ## 평균은 넘겠지(4344)
 
--  [ ] 제출코드
+-  [x] 제출코드
 ```python
 N = int(input())
 
