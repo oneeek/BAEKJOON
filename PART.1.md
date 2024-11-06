@@ -63,9 +63,9 @@ print(a*int(b))
 
 ## 윤년(2753)
 
--  [ ] 제출코드 *런타임 에러
+-  [x] 제출코드
 ```python
-year = input()
+year = int(input())
 if ((year%4 == 0)and(year%100 != 0)) or (year%400 == 0):
     print('1')
 else:
