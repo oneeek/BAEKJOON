@@ -157,5 +157,22 @@ print(1+math.ceil((V-A)/(A-B)))
 
 -  [x] 제출코드
 ```python
+import math
 
+def prime(a):
+    if a == 1:
+        return 0
+    for i in range(2, int(math.sqrt(a))+1):
+        if a % i == 0:
+            return 0
+    return 1
+
+N = input()
+num = list(map(int, input().split()))
+
+cnt = 0
+for i in num:
+    cnt += prime(i)
+print(cnt)
 ```
+*에라토스테네스의 체
