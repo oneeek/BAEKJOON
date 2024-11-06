@@ -138,5 +138,5 @@ print(ord(a))
 
 -  [x] 제출코드
 ```python
-
+print(len(input().split()))
 ```
