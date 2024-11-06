@@ -128,8 +128,10 @@ for i in range(N):
 
 -  [x] 제출코드
 ```python
-
+a = input()
+print(ord(a))
 ```
+*chr(숫자), ord(문자)
 
 
 ## 단어의 개수(1152)
