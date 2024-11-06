@@ -140,3 +140,22 @@ print(ord(a))
 ```python
 print(len(input().split()))
 ```
+
+
+## 달팽이는 올라가고싶다(2869)
+
+-  [x] 제출코드
+```python
+import math
+
+A, B, V = map(int, input().split())
+print(1+math.ceil((V-A)/(A-B)))
+```
+
+
+## 소수 찾기(1978)
+
+-  [x] 제출코드
+```python
+
+```
