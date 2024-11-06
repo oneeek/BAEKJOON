@@ -108,7 +108,7 @@ for i in range(N):
 
 ## 평균은 넘겠지(4344)
 
--  [ ] 제출코드 *런타임 에러
+-  [x] 제출코드
 ```python
 N = int(input())
 
@@ -116,9 +116,8 @@ for i in range(N):
     num = list(map(int, input().split()))
     avg = sum(num[1:])/num[0]
     cnt = 0
-    for i in num[1:]:
-        if i > avg:
+    for score in num[1:]:
+        if score > avg:
             cnt += 1
-    result = (cnt / n) * 100
-    print('%.3f' %result + '%')
+    print('%.3f' % (cnt / num[0] * 100) + '%')
 ```
