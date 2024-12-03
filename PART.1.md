@@ -30,23 +30,6 @@ iter = range(1,5)
 print(list(map(lambda x : x**2, iter)))  #결과: [1, 4, 9, 16]
 ```
 
--  [ ] **TEST**
-```python
-iter = range(1,50000000)
-result = list(map(lambda x : x**2, iter))
-#time: 
-```
-
-```python
-def square(x):
-    return x**2
-
-result = []
-for i in range(1,50000000):
-    result.append(square(i))
-#time: 
-```
-
 
 ## 곱셈(2588)
 
